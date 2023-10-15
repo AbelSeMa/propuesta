@@ -24,33 +24,31 @@ Por ejemplo:
 
 * Objetivo: "gestionar las citas dentales y acceder a su información médica".
 * Casos de uso:
+    * Usuario no registado:
+        - Consultar planes y membresias
+        - Ver la información sobre planes dentales
 
-### Usuario no registado:
- 
- * Consultar planes y membresias
- * Ver la información sobre planes dentales
+    * Rol paciente registrado y validado:
+        - Acceder a la información personal.
+        - Acceder a la información médica de su doctor asignado.
+        - Hacer una reserva de cita médica.
+        - Modificar sus citas médicas.
+        - Eliminar sus citas médicas.
+        - Cambiar su plan anual de pago.
+        - Darse de baja en el servicio.
+        - Consultar sus informes médicos.
 
-### Rol paciente registrado y validado:
- * Acceder a la información personal.
- * Acceder a la información médica de su doctor asignado.
- * Hacer una reserva de cita médica.
- * Modificar sus citas médicas.
- * Eliminar sus citas médicas.
- * Cambiar su plan anual de pago.
- * Darse de baja en el servicio.
- * Consultar sus informes médicos.
-
-### Rol administrador:
- * Asignación de doctores.
- * Crear nuevos planes anuales. (membresias)
- * Modificar planes anuales.
- * Borrar planes anuales.
- * Añadir nuevos empleados.
- * Añadir nuevos pacientes.
- * Eliminar a los empleados.
- * Eliminar a los pacientes.
- * Denegar acceso a la web a los usuarios.
- * Restablecer el acceso a la web a los usuarios.
+    * Rol administrador:
+        - Asignación de doctores.
+        - Crear nuevos planes anuales. (membresias)
+        - Modificar planes anuales.
+        - Borrar planes anuales.
+        - Añadir nuevos empleados.
+        - Añadir nuevos pacientes.
+        - Eliminar a los empleados.
+        - Eliminar a los pacientes.
+        - Denegar acceso a la web a los usuarios.
+        - Restablecer el acceso a la web a los usuarios.
 
 # Elemento de innovación
 
